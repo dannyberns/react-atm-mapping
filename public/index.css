@@ -1,0 +1,221 @@
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+/* MAP */
+
+.map {
+  height: 100vh;
+}
+
+/* Header */
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: #1e3163;
+}
+
+.filter-button {
+  width: 80px;
+  vertical-align: unset;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  border: none;
+  border-right: solid 0.5px;
+  text-align: center;
+}
+
+.filter-list {
+  position: absolute;
+  width: 450px;
+  top: 3px;
+  right: 410px;
+  color: white;
+  padding-left: 0;
+  vertical-align: middle;
+}
+
+.banks-label {
+  padding-left: 10px;
+}
+
+.banks {
+  position: relative;
+  top: -1px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+.search-bar {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  border: none;
+  padding-right: 30px;
+  width: 280px;
+}
+
+.arrow-icon {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+.search-button,
+.clear-button {
+  border: none;
+  background: transparent;
+  position: relative;
+  right: 26px;
+  bottom: 1px;
+}
+
+.search-button:focus,
+.clear-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Floating Buttons*/
+
+.floating-position {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 999;
+}
+
+.floating-button-down {
+  background-color: #1e3163;
+  box-shadow: 2px 2px 3px #1e3163;
+  bottom: 50px;
+  border: none;
+}
+
+.floating-button-up {
+  background-color: red;
+  box-shadow: 2px 2px 3px red;
+  bottom: 105px;
+  border: none;
+}
+
+/* Side Nav*/
+
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 345px;
+  z-index: 998;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+
+.sidenav-content {
+  padding: 0px 12px;
+  text-align: right;
+}
+
+.bank-logo {
+  width: 100%;
+}
+
+.bank-logo-wrapper {
+  height: 250px;
+}
+
+.sidenav-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #1e3163;
+  border: none;
+  box-shadow: 2px 2px 3px #1e3163;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.sidenav-button:hover {
+  color: white;
+}
+
+.sidenav-button-icon {
+  margin-bottom: 5px;
+}
+
+.site-link {
+  margin-top: 12px;
+}
+
+.sidenav-close-button {
+  position: absolute;
+  left: 40%;
+  width: 90px;
+  text-align: center;
+  margin-top: 80px;
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.sidenav-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.sidenav-enter-active {
+  opacity: 1;
+  transition: 0.33s visibility ease-in, 0.33s opacity ease-in,
+    0.33s transform ease-in;
+  transform: translateX(-40px);
+}
+
+.sidenav-exit {
+  opacity: 1;
+  transform: translateX(-40px);
+}
+
+.sidenav-exit-active {
+  opacity: 0;
+  transition: 0.33s visibility ease-out, 0.33s opacity ease-out,
+    0.33s transform ease-out;
+  transform: translateX(-100%);
+}
+
+.leaflet-top {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+/* Results popup */
+
+.results {
+  z-index: 998;
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  color: white;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #1e3163;
+  width: fit-content;
+  border-radius: 0.2rem;
+}
