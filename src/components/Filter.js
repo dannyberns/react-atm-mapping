@@ -52,12 +52,16 @@ function Filter() {
           :בנק{" "}
         </label>
       </li>
-      <li>
-        ללא עמלה <input type="checkbox" onClick={handleCommissionCheckbox} />
-      </li>
-      <li>
-        נגיש <input type="checkbox" onClick={handleAccessibleCheckbox} />
-      </li>
+      <label>
+        <li>
+          ללא עמלה <input type="checkbox" onClick={handleCommissionCheckbox} />
+        </li>
+      </label>
+      <label>
+        <li>
+          נגיש <input type="checkbox" onClick={handleAccessibleCheckbox} />
+        </li>
+      </label>
     </ul>
   );
 }

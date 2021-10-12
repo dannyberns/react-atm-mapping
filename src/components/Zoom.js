@@ -15,7 +15,7 @@ function Zoom() {
     if (appState.clickedUserLocation) {
       map.flyTo(
         [userLocation.coordinates.lat, userLocation.coordinates.lng],
-        12
+        16
       );
     }
   }, [appState.clickedUserLocation]);
