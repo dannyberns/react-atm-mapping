@@ -2,7 +2,7 @@
 # ATM Mapping - GIS Course Project
 
 A simple and easy way of finding nearby ATMs.
-
+Project was made during GIS course, HIT, year C.
 
 ## Screenshots
 
