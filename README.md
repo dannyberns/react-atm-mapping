@@ -26,7 +26,7 @@ Project was made during GIS course, HIT, year C.
 
 ## Installation
 
-Install my-project with npm
+Install ATM-Mapping with npm
 
 ```bash
   # Clone this repository
